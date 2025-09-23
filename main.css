@@ -42,16 +42,55 @@ header {
     margin-bottom: 16px;
     color: white;
 }
+
+/* 
+@media (condition) {
+
+}
+*/
+
 @media (max-width: 600px) {
-    body{
+    body {
+        /* font-size: 80px; */
         background-color: lightgreen;
     }
+
     .project-item {
         background-color: purple;
     }
 }
-@media (min-width: 650px  ) and (max-width: 800px) {
+
+/* @media (min-width: 650px) {
+    body {
+        background-color: pink;
+    }
+} */
+
+/* min-height && max-height */
+
+/* 
+
+@media (condition1) and (condition2) {
     body {
         background-color: pink;
     }
 }
+
+QUICK TASK 1:
+-> ONLY FROM [650px - 800px]
+
+-> Make (background-color) in the (body{}) ----> PINK
+
+-> min-width & max-width
+*/
+
+@media (min-width: 650px) and (max-width: 800px) {
+    body {
+        background-color: pink
+    }
+}
+
+/*
+TASK 2:
+=> 
+*/
